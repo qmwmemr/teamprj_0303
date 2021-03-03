@@ -1,0 +1,17 @@
+package exam0303;
+
+public class B implements IB {
+
+	@Override
+	public void monthShow() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void allShow() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

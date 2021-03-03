@@ -1,0 +1,15 @@
+package exam0303;
+
+public class B implements IB {
+
+	@Override
+	public void monthShow() {
+
+	}
+
+	@Override
+	public void allShow() {
+
+	}
+
+}

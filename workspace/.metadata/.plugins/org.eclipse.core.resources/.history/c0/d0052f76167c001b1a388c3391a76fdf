@@ -1,0 +1,17 @@
+package exam0303;
+
+public class A implements IA {
+
+	@Override
+	public void memSave() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void memShow() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
