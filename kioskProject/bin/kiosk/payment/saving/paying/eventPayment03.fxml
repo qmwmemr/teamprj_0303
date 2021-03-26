@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kiosk.payment.saving.paying.PaymentController03">
+   <children>
+      <Label layoutX="69.0" layoutY="61.0" text="03. 결제 수단 선택" />
+      <Button fx:id="card" layoutX="95.0" layoutY="209.0" mnemonicParsing="false" onAction="#btnCard" text="신용카드" />
+      <Button fx:id="kakaopay" layoutX="229.0" layoutY="209.0" mnemonicParsing="false" onAction="#btnKakaopay" text="카카오페이" />
+      <Button fx:id="gifticon" layoutX="357.0" layoutY="209.0" mnemonicParsing="false" onAction="#btnGifticon" text="모바일쿠폰" />
+      <Button layoutX="52.0" layoutY="429.0" mnemonicParsing="false" onAction="#btnFormer" text="이전" />
+      <Button fx:id="btnNext" layoutX="405.0" layoutY="429.0" mnemonicParsing="false" onAction="#btnNext" text="다음" />
+   </children>
+</AnchorPane>
